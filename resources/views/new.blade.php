@@ -3,7 +3,7 @@
 @section('content')
         <div align="center">
         <hr>   
-        <h2>Insert new data <i class="fa fa-plus-circle"></i></h2>
+        <a href="showall">🏠 Show all data from mytb1 Back</a><h2> Insert new data <i class="fa fa-plus-circle"></i></h2>
         <hr>
             <form class="form-horizontal" method="post" action="{{url('insert')}}">
                 <input type="hidden" name="_token" value="{{csrf_token()}}">

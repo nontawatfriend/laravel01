@@ -17,6 +17,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="fonts/Kamit.css" rel="stylesheet">
   
+  <!--ป๊อบอัพสถานะ--> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+ {{--  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script> --}}
+
+
 
   
 </head>
@@ -72,7 +78,7 @@
     $(document).ready(function() {
     //กำหนดให้  Plug-in dataTable ทำงาน ใน ตาราง Html ที่มี id เท่ากับ example
     $('#example').DataTable( {
-    "lengthMenu": [[5, 10, 50, 100, -1 ], [5, 10, 50, 100, "All" ]]
+    "lengthMenu": [[ -1,5, 10, 50, 100 ], ["All",5, 10, 50, 100  ]]
     } );
     });
 </script>
